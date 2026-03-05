@@ -1,0 +1,25 @@
+# dependencies
+node_modules/
+venv/
+
+# build
+dist/
+
+# env
+.env
+.env.local
+
+# ide
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# python
+__pycache__/
+*.pyc
+*.pyo
+
+# logs
+*.log

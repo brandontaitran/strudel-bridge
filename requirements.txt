@@ -1,0 +1,18 @@
+# MT3 Server Requirements
+
+# Flask web framework
+flask>=3.0.0
+flask-cors>=4.0.0
+
+# Audio processing
+librosa>=0.10.0
+soundfile>=0.12.0
+
+# ML / Transcription
+note-seq>=0.0.5
+tensorflow>=2.15.0
+tensorflow-macos>=2.15.0  # For M-series Macs
+tensorflow-metal>=1.1.0   # GPU acceleration on M-series
+
+# Utilities
+numpy>=1.24.0
